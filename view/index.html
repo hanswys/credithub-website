@@ -1,11 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credithub - Manage Your Credit Profile</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    
+<body class="bg-gradient-to-b from-blue-50 to-blue-200 font-sans">
+
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md">
+    <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+      <a href="index.html" class="text-xl font-bold text-blue-600">Credithub</a>
+      <div class="space-x-4">
+        <a href="#" class="text-gray-600 hover:text-blue-600">Home</a>
+        <a href="login.html" class="bg-blue-600 text-white px-4 py-2 rounded shadow hover:bg-blue-700">Sign Up / Log In</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header class="bg-gradient-to-r from-blue-600 to-green-400 text-white py-20">
+    <div class="container mx-auto text-center px-6">
+      <h1 class="text-4xl font-bold mb-4">Manage Your Credit Profile with Ease</h1>
+      <p class="text-lg mb-8">Track your credit score, access detailed reports, and secure your financial future.</p>
+      <a href="login.html" class="bg-orange-500 text-white px-6 py-3 rounded-lg shadow-lg hover:bg-orange-600">Get Started</a>
+    </div>
+  </header>
+
+  <!-- Features Section -->
+  <section class="container mx-auto px-6 py-32">
+    <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      <div class="text-center bg-white p-6 rounded-lg shadow-lg">
+        <!-- <img src="https://via.placeholder.com/80" alt="Feature 1" class="mx-auto mb-4"> -->
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Credit Score Tracking</h3>
+        <p class="text-gray-600">Stay updated on your credit score with real-time updates.</p>
+      </div>
+      <div class="text-center bg-white p-6 rounded-lg shadow-lg">
+        <!-- <img src="https://via.placeholder.com/80" alt="Feature 2" class="mx-auto mb-4"> -->
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Detailed Reports</h3>
+        <p class="text-gray-600">Access comprehensive credit reports to understand your financial standing.</p>
+      </div>
+      <div class="text-center bg-white p-6 rounded-lg shadow-lg">
+        <!-- <img src="https://via.placeholder.com/80" alt="Feature 3" class="mx-auto mb-4"> -->
+        <h3 class="text-xl font-bold text-gray-800 mb-2">Secure Transactions</h3>
+        <p class="text-gray-600">Your data and transactions are encrypted for maximum security.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-600 text-white py-9">
+    <div class="container mx-auto text-center">
+      <p>&copy; 2025 Credithub. All rights reserved.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
